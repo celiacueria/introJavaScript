@@ -2,7 +2,7 @@
 //Reserva de memoria, donde guardo informacion. La informacion puede cambiar (en tiempo de ejecucion)
 
 //var
-var name = "Adrian"
+//var name = "Adrian"
 
 let number = 1
 
@@ -10,11 +10,11 @@ let number = 1
 let pet = "Dog"
 
 //const
-const lastName = "Cordoba";
+//const lastName = "Cordoba";
 
 //-----------------------------------------------------------------------------------------------//
 
-var name = "Diego";
+//var name = "Diego";
 
 //Incremento y decremento
 number++;
@@ -32,6 +32,15 @@ number--;
 //Ejercicios//
 //Escribir una oración o texto por consola (que cuente lo que quieran)
 //La oración o texto debe estar compuesto por 3 variables, 3 constantes. Y al menos 3 tipos de datos.
+const name = "Celia";
+const lastName = "Cueria";
+const lastNameDos = "Barcia"
+var age = 23;
+var week = "Martes";
+var day = "13";
+
+console.info(`Mi nombre es ${name} ${lastName} ${lastNameDos} hoy es ${week} dia ${day} y tengo ${age} años`)
+
 
 //-----------------------------------------------------------------------------------------------//
 
@@ -40,6 +49,8 @@ number--;
 //Una función puede tener parámetros y devolver un valor. Las funciones se pueden definir de diferentes 
 //maneras. Quizás la más común es la declaración de función. Comienza con la palabra clave function. Sigue:
 //El nombre de la función,los parámetros encerrados entre paréntesis, las afirmaciones encerradas entre corchetes.
+
+
 
 
 function medirSuperficieCuadrado(longitudLado) {
@@ -62,11 +73,27 @@ console.info(resultado)
 //1
 //Defina una función helloque devuelva 'Hello world!'. 
 //Imprimirla en consola con un string que nos calare que ejercicio es.
+function helloworld(message){
+  return "Hello World";
+}
 
+var hello = helloworld()
+console.info(hello)
 //2
 //Defina dos funciones.
 //La primera función adebería devolver 'Hello a!'y la segunda función bdebería devolver 'Hello b!'.
 //Imprimirla en consola con un string que nos calare que ejercicio es.
+function helloA(){
+  return "Hello A";
+}
+var ejercicioA = helloA();
+console.info(`Soy el ejercicio: ${ejercicioA}`)
+
+function helloB(){
+  return "Hello B";
+}
+var ejercicioB = helloB();
+console.info(`Soy el ejercicio: ${ejercicioB}`)
 
 //3
 //Defina una función greet que devuelva el valor 'Haydo!'.
@@ -74,6 +101,12 @@ console.info(resultado)
 //Llame a la función greety asigne el resultado de la llamada a la variable salutation.
 //Imprimirla en consola con un string que nos calare que ejercicio es.
 
+function greet (){
+  return "Heydo"
+}
+var salutation = greet();
+
+console.info(`Soy el ejercicio 3: ${salutation}`)
 
 //Parámetros
 
